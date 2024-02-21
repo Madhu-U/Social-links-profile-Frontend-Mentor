@@ -70,3 +70,9 @@ button {
     font-size: 14px;
     font-weight: 600;
 }
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 12%);
+}
