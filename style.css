@@ -19,7 +19,7 @@ body {
 
 .container {
     display: flex;
-    width: 380px;
+    max-width: 380px;
     flex-direction: column;
     align-items: center;
     background-color: hsl(0, 0%, 12%);
@@ -39,7 +39,7 @@ body {
     margin-top: 25px;
 }
 
-.container h2 {
+.container .location {
     font-size: 14px;
     font-weight: 600;
     color: hsl(75, 94%, 57%);
